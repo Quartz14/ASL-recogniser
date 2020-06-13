@@ -20,7 +20,7 @@ The asl_abc video depict the model in action, on an youtube video (https://www.y
 Refered code (https://www.pyimagesearch.com/2019/07/15/video-classification-with-keras-and-deep-learning/, https://gogul.dev/software/hand-gesture-recognition-p1)
 
 ## Results: 
-  The convolution model achieved 99% accuracy, while the test accuracy was lower, around 60%. On analysing the cause I found that, the dataset used to train the model was perfectly tresholded, to classify the hand action from the background, and my method to threshold the live camera feed, was not as accurate. This lead to a significant drop in perfoemance.
+  The convolution model achieved 99% accuracy, while the test accuracy was lower, around 60%. On analysing the cause I found that, the dataset used to train the model was perfectly tresholded, to classify the hand action from the background, and my method to threshold the live camera feed, was not as accurate. This lead to a significant drop in performance.
   
 ### Lesson learnt: 
 Make sure the preprocessing in train dataset matches as much as possible to the test dataset
